@@ -1,10 +1,10 @@
 <template>
   <HomeDesafio msg="Usuários Home Desafio"/>
-  <PerfilUsuario/>
-   <PerfilUsuario style="position:absolute; top:135px; left:0px;"/>
-   <PerfilUsuario style="position:absolute; top:270px; left:0px;"/>
-   <PerfilUsuario style="position:absolute; top:405px; left:0px;"/>
-   <PerfilUsuario style="position:absolute; top:540px; left:0px;"/>
+  <PerfilUsuario style="position:absolute; top:0px; left:25px;"/>
+   <PerfilUsuario style="position:absolute; top:135px; left:25px;"/>
+   <PerfilUsuario style="position:absolute; top:270px; left:25px;"/>
+   <PerfilUsuario style="position:absolute; top:405px; left:25px;"/>
+   <PerfilUsuario style="position:absolute; top:540px; left:25px;"/>
 </template>
 
 <script>
