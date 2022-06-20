@@ -3,7 +3,8 @@
   <div class="home">
     <!-- <h1>{{ name}}</h1> -->
     <div class="group15">
-      <button>Novo Usuário</button>
+      <button type="submit" @click="mudaBotao" class="btn" 
+    v-on:click ="clicked = !clicked">{{textoBotao}}</button>
       <div class="group1">
         <p class="titulo">Usuários</p>
       </div>
@@ -87,17 +88,28 @@ export default {
             name: "Usuários",
             //retImage: require("../assets/img/ret1.png"),
             // retPeq: require("../assets/img/retpeq.png")
-            components: {
-               
-            }
+            textoBotao: 'Novo Usuário',
+            components: {},
+            clicked: false,
         };
     },
+    methods: {
+      mudaBotao() {
+        this.clicked = !this.clicked
+        if(this.btn ) {
+          this.textoBotao = 'Novo Usuário'
+        } else{
+          this.textoBotao = 'Cancelar';
+          
+        }
+      }
+    }
 
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only  ,  style scoped-->
-<style scoped>
+<style >
 h3 {
   margin: 40px 0 0;
 }
@@ -154,6 +166,7 @@ button {
   top: 0px;
   color: #fff;
   font-family: "Montserrat";
+  font-weight: 600;
   background: #000000;
   border-radius: 5px;
 }

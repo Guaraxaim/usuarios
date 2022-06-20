@@ -9,7 +9,7 @@
         </div>
         </div>
 
-        
+        <!--
 
         <div class="ret2">
           <img v-bind:src="retImage" />
@@ -17,11 +17,9 @@
             <div class="ret_icons"></div>
             <div class="ret_perfil"></div>
           </div>
-        </div>
+        </div>   -->
 
       </div>
-
-
 
 </template>
 
@@ -32,8 +30,6 @@ export default {
 </script>
 
 <style scoped>
-
-
 
 .retpeq {
   position: relative;
@@ -52,7 +48,7 @@ export default {
   height: 120px;
   top: 208px;
   left: 352px;
-  border: 1px solid #fff;;
+  border: 1px solid #fff;
 }
 
 .group8 {
@@ -64,6 +60,7 @@ export default {
   background: #f7f7f7;
   border-radius: 5px;
 }
+
 .group7 {
   position: relative;
   align-items: center;
@@ -73,8 +70,5 @@ export default {
   top: 15%;
   border: 1px solid #fff;
 }
-
-
-
 
 </style>
