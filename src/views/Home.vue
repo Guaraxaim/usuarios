@@ -1,12 +1,15 @@
 <template>
   <div>
   <HomeDesafio msg="Usuários Home Desafio"/>
+  
   <FundoPerfil style="position:absolute; top:0px; left:25px;"/>
    <FundoPerfil style="position:absolute; top:135px; left:25px;"/>
    <FundoPerfil style="position:absolute; top:270px; left:25px;"/>
    <FundoPerfil style="position:absolute; top:405px; left:25px;"/>
    <FundoPerfil style="position:absolute; top:540px; left:25px;"/>
+   
    <TesteComponente />
+
    <p> Teste inserindo {{inserir}}</p>
    </div>
 </template>
@@ -22,8 +25,9 @@ export default {
   components: {
     HomeDesafio,
     TesteComponente,
-    FundoPerfil
-  },
+    FundoPerfil,
+    
+},
     created() {
         axios.get('https://reqres.in/api/users')
         .then((response) => {
