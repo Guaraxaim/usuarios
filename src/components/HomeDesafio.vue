@@ -91,6 +91,7 @@ export default {
             textoBotao: 'Novo Usuário',
             components: {},
             clicked: false,
+
         };
     },
     methods: {

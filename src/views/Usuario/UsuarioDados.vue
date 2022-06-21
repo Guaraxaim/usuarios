@@ -2,6 +2,7 @@
   <div class="container">
      
   <div class="group15">
+    <IncluirDados />
       <button type="submit" @click="mudaBotao" class="btn" 
     v-on:click ="clicked = !clicked">Voltar</button>
       <div class="group1">
@@ -38,6 +39,7 @@ export default {
     data() {
         return {
             clicked: false,
+            list:[]
 
         };
     },
