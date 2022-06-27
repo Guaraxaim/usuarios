@@ -20,7 +20,9 @@
             
               <img src="../assets/img/edit.svg" alt="" class="edit">
               <img src="../assets/img/trash.svg" alt="" class="trash">
+              <a href="https://usuarios-swart.vercel.app/usuario">
               <img src="../assets/img/view.svg" alt="" class="view">
+              </a>
           </div>
        
             <div class="group8">
